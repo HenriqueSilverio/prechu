@@ -1,0 +1,26 @@
+// base/fonts
+//------------------------------
+
+@include font-face(
+	'Segoe WP Light', 
+	font-files(
+		'segoewp-light/segoewp-light.woff',
+		'segoewp-light/segoewp-light.ttf', 
+		'segoewp-light/segoewp-light.svg'
+	), 
+	'segoewp-light/segoewp-light.eot', 
+	'normal', 
+	'normal'
+);
+
+@include font-face(
+	'Segoe WP N', 
+	font-files(
+		'segoewpn/segoewpn.woff',
+		'segoewpn/segoewpn.ttf', 
+		'segoewpn/segoewpn.svg'
+	), 
+	'segoewpn/segoewpn.eot', 
+	'normal', 
+	'normal'
+);

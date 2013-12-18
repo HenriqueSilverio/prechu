@@ -1,0 +1,40 @@
+// modules/button
+//--------------------------------------
+
+.btn {
+	position: relative;
+	display: inline-block;
+	padding: 6px 10px;
+	font: 1.375em $font-light;
+	text-align: center;
+	color: $lightness;
+	border-radius: 4px;
+	border-bottom: 3px solid darken( $positive, 30% );
+	background: $positive;
+
+	transition: all .1s linear;
+
+	&:hover {
+		text-decoration: none;
+		background: darken( $positive, 5% );
+	}
+
+	&:active {
+		margin-top: 3px;
+		border-bottom: 3px solid transparent;
+	}
+}
+
+.btn-ok {
+	padding-left: 10px + image-width( 'icon-ok.png' ) + 10px;
+}
+
+.btn-ok:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 8px; left: 10px;
+	width: image-width( 'icon-ok.png' );
+	height: image-height( 'icon-ok.png' );
+	background: image-url( 'icon-ok.png' );
+}

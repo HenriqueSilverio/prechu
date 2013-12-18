@@ -1,0 +1,65 @@
+// layout/grid
+//--------------------------------------
+
+.container {
+	@include container;
+}
+
+// Header
+//-----------------------------
+.block-logo {
+	padding-top: 20px;
+	@include span-columns( 4, 12 );
+}
+
+.block-menu {
+	@include span-columns( 8 omega, 12 );
+}
+
+// Banner
+//-----------------------------
+.banner-figure {
+	@include span-columns( 6, 12 );
+}
+
+.banner-text {
+	@include span-columns( 6 omega, 12 );
+}
+
+// Content
+//-----------------------------
+.col-1 {
+	// background: #333;
+	@include span-columns( 4, 12 );
+	// @include suffix(1);
+}
+
+.col-2 {
+	// background: #333;
+	@include span-columns( 4, 12 );
+	// @include pad(1, 1);
+}
+
+.col-3 {
+	// background: #333;
+	@include span-columns( 4 omega, 12 );
+	// @include prefix(1);
+}
+
+// Content 2
+//-----------------------------
+.col-12 {
+	@include span-columns( 12, 12 );
+}
+
+.col-8 {
+	@include span-columns( 5, 12 );
+	@include squish(0, 1);
+}
+
+.col-4 {
+	@include span-columns( 6 omega, 12 );	
+}
+
+// Footer
+//-----------------------------

@@ -1,0 +1,26 @@
+// modules/menu
+//--------------------------------------
+
+.menu {
+	float: right;
+	padding-top: 1px;
+}
+
+.menu li {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+}
+
+.menu li a {
+	display: block;
+	padding: 20px 5px;
+	font-size: 1.250em;
+	color: $darkness;
+	border-bottom: 3px solid transparent;
+
+	&:hover {
+		text-decoration: none;
+		border-bottom: 3px solid $positive;
+	}
+}

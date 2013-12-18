@@ -1,0 +1,51 @@
+// base/helpers
+//------------------------------
+
+// Chrome frame prompt
+//------------------------------
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.debug {
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 100;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, .5);
+}
+
+// Non-semantics and Placeholders
+//--------------------------------------------
+
+.no-gutter {
+	margin: 0;
+	padding: 0;
+}
+
+.p-top     { padding-top: 20px;    }
+.p-bot     { padding-bottom: 20px; }
+.p-top-bot { padding: 20px 0;      }
+
+.m-top     { margin-top: 20px;    }
+.m-bot     { margin-bottom: 20px; }
+.m-top-bot { margin: 20px 0;      }
+
+.txt-center { text-align: center; }
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+} 
+
+.top-offset {
+	padding-top: 90px;
+}
