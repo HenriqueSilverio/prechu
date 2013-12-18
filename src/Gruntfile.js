@@ -159,12 +159,12 @@ module.exports = function(grunt) {
 		'ftp-deploy': {
 			build: {
 				auth: {
-					host: 'ftp.henriquesilverio.com',
+					host: 'ftp.host',
 					port: 21,
 					authKey: 'key1'
 				},
 				src: '<%= dirs.dist.base %>',
-				dest: 'www/psd-to-html/prechu',
+				dest: 'www/prechu',
 				exclusions: [
 					'<%= dirs.dist.base %>/tmp',
 					'../**/.DS_Store', 
